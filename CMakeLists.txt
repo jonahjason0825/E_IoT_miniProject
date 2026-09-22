@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 3.16)
-
-include($ENV{IDF_PATH}/tools/cmake/project.cmake)
-
-project(EmbeddedIoT_miniProject)
+idf_component_register(
+    SRCS "main.c"
+    INCLUDE_DIRS "."
+    REQUIRES driver lwip esp_wifi nvs_flash esp_event mqtt cjson esp_driver_gpio
+)
