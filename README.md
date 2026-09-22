@@ -13,3 +13,5 @@ Microsoft Azure gives the ESP32 an encrypted internet hotline to Microsoft's clo
 Azure stores this data and it can be viewed through a real-time dashboard. 
 
 In essence, this is a custom Wi-Fi booster that bridges dead zones while simulataneously allowing health monitoring and changing setting from anywhere in the world through a cloud dashboard.
+
+Included: Photo of hardware implementation (HardwareImplementation.jpg)
